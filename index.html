@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Товари для гольфу</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="golf-page">
+	<header class="golf-header bg-cover">		
+		<nav class="golf-header-nav ">
+			<div class="content-wrap d-flex vertical-center justify-between">
+			<div class="logo" data-aos="fade-right">
+				<a href="index.html">
+					<img src="images/logo.svg" alt="logo">
+				</a>
+			</div>
+			<nav class="main-menu" data-aos="fade-left">
+				<ul>
+					<li>
+						<a href="index.html" style="color:#377DFF;">Домашня</a>
+					</li>
+					<li>
+						<a href="404.html">Магазин</a>
+					</li>
+					<li>
+						<a href="catalog.html">Каталог</a>
+					</li>
+					<li>
+						<a href="contact.html">Контакти</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="controls" data-aos="fade-left">
+				<a href="#">
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</a>
+				<a href="#">
+					<i class="fa-regular fa-user"></i>
+				</a>
+				<a href="cart.html" class="cart-icon">
+					<i class="fa-solid fa-cart-shopping"></i>
+				</a>
+			</div>
+			<div class="mobile-menu">
+			<div id="menuIcon" class="menu-icon ">
+				<i id="menuOpen" class="fa-solid fa-bars"></i>
+				<i id="menuClose" class="fa-solid fa-xmark hide-icon"></i>
+			</div>
+			<ul id="menuList" class="menu-list hide-menu">
+				<li>
+					<a href="index.html">Домашня</a>
+				</li>
+				<li>
+					<a href="404.html">Магазин</a>
+				</li>
+				<li>
+					<a href="catalog.html">Каталог</a>
+				</li>
+				<li>
+					<a href="contact.html">Контакти</a>
+				</li>
+			</ul>
+			</div>
+		</div>
+		</nav>
+
+		<div class="header__main-content" data-aos="fade-left">
+			<div class="content-wrap d-flex vertical-center">
+				<div class="header__content">
+					<h1 class="header__content-title">
+						Більше, ніж просто гра. Це стиль життя.
+					</h1>
+					<p>
+						Незалежно від того, чи ви тільки починаєте, грали все своє життя чи ви професіонал Tour, ваш розмах схожий на відбиток пальця.
+					</p>
+					<a href="catalog.html" class="link-btn">
+						Купуйте зараз
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="section">
+	  <div class="content-wrap">
+	    <div class="section-title" data-aos="fade-down">
+	      Рекомендовані
+	    </div>
+
+	    <div style="overflow-x:hidden;" class="swiper-container" data-aos="fade-up">
+	      <div class="swiper-wrapper" id="swiper-wrapper">
+	      </div>
+	      <div style='position:static;' class="swiper-pagination"></div>
+	    </div>
+	  </div>
+	</section>
+
+  <section class="categories">
+    <div class="content-wrap">
+      <div class="section-title" data-aos="fade-down">
+        Купуйте за категоріями
+      </div>
+
+      <div class="categories-grid d-flex">
+        <div class="categories-grid-item">
+          <div class="categories-grid-item-img categories-grid-item-img-1"></div>
+          <div class="categories-grid-item-title">
+            <a href="catalog.html"> Ключки для гольфу </a>
+          </div>
+        </div>
+        <div class="categories-grid-item">
+          <div class="categories-grid-item-img categories-grid-item-img-2"></div>
+          <div class="categories-grid-item-title">
+            <a href="catalog.html">М'ячі для гольфу</a></div>
+        </div>
+        <div class="categories-grid-item">
+          <div class="categories-grid-item-img categories-grid-item-img-3"></div>
+          <div class="categories-grid-item-title">
+            <a href="catalog.html">Сумки для гольфу</a></div>
+        </div>
+        <div class="categories-grid-item">
+          <div class="categories-grid-item-img categories-grid-item-img-4"></div>
+          <div class="categories-grid-item-title">
+            <a href="catalog.html">Одяг</a></div>
+        </div>
+        <div class="categories-grid-item">
+          <div class="categories-grid-item-img categories-grid-item-img-5"></div>
+          <div class="categories-grid-item-title">
+            <a href="catalog.html">Взуття</a></div>
+        </div>
+        <div class="categories-grid-item">
+          <div class="categories-grid-item-img categories-grid-item-img-6"></div>
+          <div class="categories-grid-item-title">
+            <a href="catalog.html">Аксесуари</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-promo golf-section-promo">
+		<div class="section-promo-l cover-bg" data-aos="fade-left"></div>
+		<div class="section-promo-r d-flex vertical-center" data-aos="fade-right">
+			<div class="section-promo-r-content ">
+				<div class="section-promo-r-content-text  uppercase">
+					Limited Edition
+				</div>
+				<div class="section-promo-r-content-title">
+					поспішайте! ЗНИЖКА 30%!
+				</div>
+				<div class="section-promo-r-content-subtitle">
+					Знайдіть ключки, які підходять для вашої гри
+				</div>
+				<div class="countdown">
+					<div class="countdown-title"></div>
+					<div id="countdown" class="countdown-grid d-flex">
+		        <div class="countdown-row">
+		        	<span id="days"></span>
+		        	<span>днів</span>
+		        </div>
+		        <div class="countdown-row">
+		        	<span id="hours"></span>
+		        	<span>годин</span>
+		        </div>
+		        <div class="countdown-row">
+		        	<span id="minutes"></span>
+		        	<span>хвилин</span>
+		        </div>
+		        <div class="countdown-row">
+		        	<span id="seconds"></span>
+		        	<span>секунд</span>
+		        </div>
+		      </div>
+				</div>
+				<a href="#" class="link-btn">
+					Купуйте зараз
+				</a>
+			</div>
+		</div>
+	</section>
+  
+	<section class="section golf-shop">
+	  <div class="content-wrap">
+	    
+	    <div class="section-title" data-aos="fade-down">
+	      Колекція магазину
+	    </div>
+
+	    <div class="collection-grid d-flex">
+	    	<div class="relative collection-item collection-item-l full-item cover-bg" data-aos="fade-left">
+	    		<div class="collection-item-content absolute">
+		    		<div class="collection-item-title ">
+		    			Набір для початківців
+		    		</div>
+		    		<a href="#">
+		    			<span>Колекція</span>
+		    			<i class="fa-solid fa-arrow-right"></i> 
+		    		</a>
+	    		</div>
+	    	</div>
+	    	<div class="collection-item collection-item-r cover-bg" data-aos="fade-right">
+	    		<div class="relative collection-item-r-top">
+	    			<div class="collection-item-content absolute">
+		    		<div class="collection-item-title ">
+		    			Набір для чоловіків
+		    		</div>
+		    		<a href="#">
+		    			<span>Колекція</span>
+		    			<i class="fa-solid fa-arrow-right"></i> 
+		    		</a>
+	    		</div>
+	    		</div>
+	    		<div class="relative collection-item-r-bottom">
+	    			<div class="collection-item-content absolute">
+		    		<div class="collection-item-title ">
+		    			Набір для жінок
+		    		</div>
+		    		<a href="#">
+		    			<span>Колекція</span>
+		    			<i class="fa-solid fa-arrow-right"></i> 
+		    		</a>
+	    		</div>
+	    		</div>
+	    	</div>
+	    </div>
+
+	  </div>
+	</section>
+
+  <section class="golf-articles">
+    <div class="content-wrap">
+      <div class="section-title" data-aos="fade-down">
+        Останні статті
+      </div>
+      <div class="categories-grid d-flex">
+        <div class="categories-grid-item" data-aos="fade-left">
+          <div class="categories-grid-item-img articles-grid-item-img-1"></div>
+          <div class="categories-grid-item-title">
+            <div>Подія Air Jordan x Travis Scott</div>
+            <a href="#">Читати <i class="fa-solid fa-arrow-right"></i> </a>
+          </div>
+        </div>
+        <div class="categories-grid-item" data-aos="fade-right">
+          <div class="categories-grid-item-img articles-grid-item-img-2"></div>
+          <div class="categories-grid-item-title">
+            <div>Вічна класика на зеленому</div>
+            <a href="#">Читати <i class="fa-solid fa-arrow-right"></i></a></div>
+        </div>
+        <div class="categories-grid-item" data-aos="fade-left">
+          <div class="categories-grid-item-img articles-grid-item-img-3"></div>
+          <div class="categories-grid-item-title">
+            <div>Кубок Ryder 2023</div>
+            <a href="#">Читати <i class="fa-solid fa-arrow-right"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section subscribe golf-subscribe cover-bg" data-aos="fade-up">
+		<div class="content-wrap d-flex vertical-center justify-center">
+			<div class="subscribe-content">
+				<div class="subscribe-content-title mb-16">
+					Підпишись на новини
+				</div>
+				<div class="subscribe-content-subtitle">
+					Підпишіться на пропозиції, нові продукти та акції
+				</div>
+				<div class="subscribe-content-form relative">
+					<form action="#" class="d-flex">
+						<i class="fa-regular fa-envelope absolute"></i>
+						<input class="mail-input" type="email" placeholder="Введіть Email">
+						<button class="absolute">Підписатись</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+  <section class="newsfeed golf-newsfeed">
+		<div class="content-wrap">
+			<div class="newsfeed-title mb-16 uppercase" data-aos="fade-up">
+				стрічка новин
+			</div>
+			<div class="newsfeed-subtitle mb-16" data-aos="fade-down">
+				Instagram
+			</div>
+			<div class="newsfeed-text mb-16" data-aos="fade-left">
+				Слідкуйте за нами в соціальних мережах, щоб отримати більше знижок і акцій
+			</div>
+			<a href="https://www.instagram.com/" class="link-inst" data-aos="fade-right">@3legant_official</a>
+    </div>
+    <div class="social-grid d-flex">
+      <div class="social-grid-item social-grid-item-bg1 cover-bg" data-bg="images/newsfeed/bg1.jpg" data-aos="fade-left"></div>
+      <div class="social-grid-item social-grid-item-bg2 cover-bg" data-bg="images/newsfeed/bg2.jpg" data-aos="fade-right"></div>
+      <div class="social-grid-item social-grid-item-bg3 cover-bg" data-bg="images/newsfeed/bg3.jpg" data-aos="fade-right"></div>
+      <div class="social-grid-item social-grid-item-bg4 cover-bg" data-bg="images/newsfeed/bg4.jpg" data-aos="fade-left"></div>
+      <div class="social-grid-item social-grid-item-bg5 cover-bg" data-bg="images/newsfeed/bg3.jpg" data-aos="fade-right"></div>
+      <div class="social-grid-item social-grid-item-bg6 cover-bg" data-bg="images/newsfeed/bg4.jpg" data-aos="fade-left"></div>
+    </div>
+		
+	</section>
+
+	<footer class="golf-footer" data-aos="fade-left">
+		<div class="content-wrap">
+			<div class="footer-top d-flex">
+				<div class="footer-top-row d-flex vertical-center justify-between">
+					<div class="footer-top-row-l">
+						<div class="logo">
+							<a href="index.html">
+								<img src="images/logo-white.svg" alt="logo">
+							</a>
+						</div>
+						<div class="slogan">
+							Більше ніж просто гра. <br> Це стиль життя.
+						</div>
+            <div class="golf-social-icons d-flex vertical-center">
+              <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/?locale=uk_UA">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://www.youtube.com/">
+                <i class="fa-brands fa-square-youtube"></i>
+              </a>
+            </div>
+					</div>
+					<div class="footer-top-row-r d-flex">
+						<div>
+              <div class="golf-nav-title">Сторінки</div>
+              <nav class="main-menu">
+                <ul>
+                  <li>
+                    <a href="index.html" >Домашня</a>
+                  </li>
+                  <li>
+                    <a href="404.html">Магазин</a>
+                  </li>
+                  <li>
+                    <a href="catalog.html">Каталог</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Контакти</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div>
+              <div class="golf-nav-title">Інформація</div>
+              <nav class="main-menu">
+                <ul>
+                  <li>
+                    <a href="#" >Політика доставки</a>
+                  </li>
+                  <li>
+                    <a href="#">Повернення</a>
+                  </li>
+                  <li>
+                    <a href="#">Підтримка</a>
+                  </li>
+                  <li>
+                    <a href="#">FAQs</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div>
+              <div class="golf-nav-title">Офіс</div>
+              <nav class="main-menu">
+                <ul>
+                  <li>
+                    <a href="#" >м. Івано-Франківськ</a>
+                  </li>
+                  <li>
+                    <a href="#">вул. Вовчинецька 223</a>
+                  </li>
+                  <li>
+                    <a href="#">Україна</a>
+                  </li>
+                  <li>
+                    <a href="tel:+380991234567">099 123 45 67</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>           
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-bottom d-flex justify-between">
+				<div class="footer-bottom-l d-flex vertical-center">
+					<div class="copyright">
+						Copyright© 2024, Івасик Валерій - ПІ-21-01
+					</div>
+					<a href="policy.html">Політика конфіденційності</a>
+					<a href="terms.html">Умови використання</a>
+				</div>
+        <div class="payment"></div>
+				
+			</div>
+
+		</div>
+	</footer>
+
+	<button id="scrollToTopBtn" class="scroll-to-top-btn">
+		<i class="fa-solid fa-arrow-up"></i>
+	</button>
+
+
+	<script src="https://unpkg.com/dayjs@1.11.9"></script>
+	<script src="https://unpkg.com/dayjs/plugin/duration.js"></script>
+	<!-- <script src="script/script.js"></script> -->
+	<script src="script/app.js"></script>
+  <script src="script/products.js"></script>
+  <script src="script/menu.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 120,
+      duration: 2000,
+	    disable: 'mobile',
+    });
+  </script>
+	<script>
+	  dayjs.extend(dayjs_plugin_duration);
+	  const targetDate = dayjs('2025-01-01T23:59:59Z');
+		const updateCountdown = () => {
+		  const now = dayjs();
+		  const duration = dayjs.duration(targetDate.diff(now));
+
+		  document.getElementById('days').textContent = Math.floor(duration.asDays());
+		  document.getElementById('hours').textContent = duration.hours();
+		  document.getElementById('minutes').textContent = duration.minutes();
+		  document.getElementById('seconds').textContent = duration.seconds();
+		};
+
+		setInterval(updateCountdown, 1000);
+		updateCountdown();
+</script>
+	
+</body>
+</html>
